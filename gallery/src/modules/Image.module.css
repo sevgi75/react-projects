@@ -1,0 +1,31 @@
+.picture {
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    border-radius: 25px;
+}
+.transporter {
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.picture:hover {
+    transform: scale(1.3);
+    cursor: zoom-in; 
+ 
+}
+.imageCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.imageCaption {
+    font-size: 1rem;
+    color: blueviolet;
+    text-align: center;
+    font-weight: 300;
+}

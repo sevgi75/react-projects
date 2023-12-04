@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title {
+    background-color: aquamarine;
+    text-align: center;
+    color: brown;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
